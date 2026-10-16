@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Example Use Case */
+/* <div className="text-custom-red"></div> */
+@theme {
+    --color-custom-black: var(--custom-black);
+    --color-custom-white: var(--custom-white);
+    --color-custom-gray: var(--custom-gray);
+    --color-custom-blue: var(--custom-blue);
+    --color-custom-green: var(--custom-green);
+    --color-custom-yellow: var(--custom-yellow);
+    --color-custom-purple: var(--custom-purple);
+    --color-custom-orange: var(--custom-orange);
+    --color-custom-red: var(--custom-red);
+}
+
+/* Root Used as CSS Variable */
+:root {
+    --custom-black: #040404;
+    --custom-white: #ffffff;
+    --custom-gray: #b8b8b8;
+    --custom-blue: #007bff;
+    --custom-red: #ff0000;
+    --custom-green: #00ff3c;
+    --custom-yellow: #ffc107;
+    --custom-purple: #742aff;
+    --custom-orange: #ff7300;
+}
+
+/* Custom Class Example */
+/* .button {
+    color: var(--color-custom-blue);
+    background-color: var(--color-custom-white);
+    border: 1px solid var(--color-custom-gray);
+} */

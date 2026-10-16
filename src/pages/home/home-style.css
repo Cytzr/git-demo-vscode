@@ -1,0 +1,62 @@
+.microsoft-svg {
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-with-microsoft-text {
+    font-size: large;
+    margin: 0;
+}
+
+.home-button {
+    display: flex;
+    flex: row;
+    gap: 7%;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid rgb(171, 171, 171);
+    text-wrap: nowrap;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: #007bff;
+    color: white;
+    transition: all ease-in-out 0.15s;
+}
+
+.home-button-container {
+    display: flex;
+    flex: row;
+    align-items: end;
+    justify-content: end;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navigation-button-container button {
+    padding: 7px;
+    background-color: white;
+    font-size: 15px;
+    border: solid 1px black;
+    border-radius: 5px;
+}

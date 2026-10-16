@@ -1,0 +1,14 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://devbees-dev.apps.binus.edu",
+      "localStorage": [
+        {
+          "name": "persist:root",
+          "value": "{\"tokenBinus\":\"\\\"U2FsdGVkX1/e2oDQW1tCIvDxnjv/de9l3ioQTX3saPI=\\\"\",\"authUser\":\"\\\"U2FsdGVkX19nBA5fi9wl6U3ex37r1wD1e5Id8EtyAXWV2TrKqXdrQw8T4Pk3FVSp\\\"\",\"_persist\":\"\\\"U2FsdGVkX19aNa7Z63tBFvMoIGrDNSAUtCjVebc/yhI32G3y8fqsI3p0Sg9Pti6PpLhp2ej6PjdHpBM0/7QaBQ==\\\"\"}"
+        }
+      ]
+    }
+  ]
+}
